@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+header {
+  background-image: url('../img/bg.jpeg');
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+nav.main {
+  margin-top: 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0 10px 0 10px;
+  padding: 0;
+}
+nav ul li {
+  float: right;
+  margin-left: 25px;
+}
+nav ul li a {
+  color: white;
+}
+.hero {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+.justify-content-center a {
+  margin-right: 15px;
+}
+.descripcion {
+  padding: 20px;
+}
+.descripcion h2{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.bootcamp {
+  text-align: center;
+  padding-top: 60px;
+}
+.bootcamp img {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+
+  .bootcamp img {
+    width: 80%;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  .bootcamp img {
+    width: 60%;
+  }
+
+}
+
+.jumbotron {
+  text-align: center;
+  width: 100%;
+}
+.jumbotron .btn-primary {
+  margin-bottom: 10px;
+}
+section {
+  padding-bottom: 50px;
+}
+section p {
+  margin: 1px;
+}
+footer {
+  padding: 20px;
+  background-color: black;
+}
+footer p {
+  color: #e0e0e0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.form-group input {
+  width: 66%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 10px;
+}
+.form-grop button {
+  width: 30%
+}
